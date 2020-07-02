@@ -1,0 +1,23 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "Site comercial da Ecom (empresa desenvolvedora de aplicações web e mobile)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "stylus -w stylus/style.styl -o css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizfilipezs/ecom.git"
+  },
+  "keywords": [
+    "comercial"
+  ],
+  "author": "Luiz Filipe da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizfilipezs/ecom/issues"
+  },
+  "homepage": "https://github.com/luizfilipezs/ecom#readme"
+}
