@@ -76,24 +76,50 @@ textarea
     margin-left 12%
     float left
 
+    @media (max-width 1800px)
+      margin-top 22em
+
+    @media (max-width 1600px)
+      margin-top 20em
+
     .main-title
       font-size 5em
       font-weight 800
       color theme-color
+
+      @media (max-width 1800px)
+        font-size 4.75em
+
+      @media (max-width 1600px)
+        font-size 4.5em
     
     .initial-paragraph
       width 90%
-      margin-top 2em
+      margin-top 2.2em
       font-size 2em
       font-weight 500
       line-height 1.6em
       color theme-color
 
+      @media (max-width 1800px)
+        margin-top 2em
+        font-size 1.8em
+
+      @media (max-width 1600px)
+        margin-top 1.8em
+        font-size 1.7
+
     .see-more-wrapper
       width 100%
       height auto
-      margin-top 6em
+      margin-top 6.5em
       flex-parent(row, wrap, flex-start)
+
+      @media (max-width 1800px)
+        margin-top 6em
+
+      @media (max-width 1600px)
+        margin-top 5.5em
 
       .see-more-btn
         padding .9em 2.8em .8em 2.8em
@@ -104,12 +130,37 @@ textarea
         color #fff
         background-color theme-color
 
+        @media (max-width 1800px)
+          font-size 1.8em
+
+        @media (max-width 1600px)
+          font-size 1.7
+
         &:hover
           box-shadow(0px 15px 30px 0px rgba(#6C6C6C, .16))
           color theme-color
           background-color dark-pale-color
       
   .rounded-background
-    width 55%
+    width 52%
     height auto
     float right
+
+    @media (max-width 1600px)
+      width 55%
+
+@media (max-width 1800px)
+  body
+    font-size 60%
+
+@media (max-width 1600px)
+  body
+    font-size 57.5%
+
+@media (max-width 1366px)
+  body
+    font-size 54%
+
+@media (max-width 1280px)
+  body
+    font-size 50%
