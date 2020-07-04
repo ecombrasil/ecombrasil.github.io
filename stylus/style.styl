@@ -38,3 +38,78 @@ textarea
   font-family font
   color text-color
   border none
+
+.container
+  width 100%
+  height auto
+  overflow auto
+
+  #header
+    position absolute
+    z-index 2
+    left 0
+    width 76%
+    padding 5.5em 12% 0 12%
+    flex-parent(row, nowrap, space-between)
+    align-items flex-end
+
+    .site-title
+      font-size 2.4em
+      font-weight 800
+      color theme-color
+
+    .main-menu
+      flex-basis auto
+      flex-parent(row, nowrap, flex-start)
+      list-style none
+
+      .menu-link
+        font-size 1.8em
+        font-weight 600
+        margin-left 3.5em
+        color theme-color
+
+  .main-texts
+    width 25%
+    height auto
+    margin-top 24em
+    margin-left 12%
+    float left
+
+    .main-title
+      font-size 5em
+      font-weight 800
+      color theme-color
+    
+    .initial-paragraph
+      width 90%
+      margin-top 2em
+      font-size 2em
+      font-weight 500
+      line-height 1.6em
+      color theme-color
+
+    .see-more-wrapper
+      width 100%
+      height auto
+      margin-top 6em
+      flex-parent(row, wrap, flex-start)
+
+      .see-more-btn
+        padding .9em 2.8em .8em 2.8em
+        font-size 2em
+        font-weight 700
+        border-radius(1em)
+        transition(.6s)
+        color #fff
+        background-color theme-color
+
+        &:hover
+          box-shadow(0px 15px 30px 0px rgba(#6C6C6C, .16))
+          color theme-color
+          background-color dark-pale-color
+      
+  .rounded-background
+    width 55%
+    height auto
+    float right
