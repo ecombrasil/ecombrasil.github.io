@@ -36,6 +36,7 @@ a
   text-decoration none
 
 textarea
+input
   font-family font
   color text-color
   border none
@@ -268,7 +269,7 @@ textarea
 
   &#faleconosco
     width 76%
-    padding 9em 12% 9em 12%
+    padding 9em 12% 0 12%
     background-color pale-color
 
     .footer-title
@@ -277,13 +278,55 @@ textarea
       color theme-color
 
     .container
-      margin-top 3em
+      margin-top 2.5em
       flex-parent(row, wrap, space-between)
       align-items flex-end
+
+      #send-message-form
+        flex-parent(row, wrap, flex-start)
+        margin-bottom 9em
+
+        .input-wrapper
+          margin-right 4em
+
+          &:last-child
+            flex-parent(row, wrap, flex-start)
+            align-items flex-end
+            margin-right 0
+
+          input
+          textarea
+            width 16em
+            font-size 1.6em
+            font-weight 500
+            padding .6em 1em .35em 1em
+            border-radius(.8em)
+            margin-top .9em
+            placeholder(text-color)
+
+          textarea
+            height 4.2em
+            resize none
+          
+          .send-form-btn
+            padding .6em 1.7em .4em 1.7em
+            font-size 1.6em
+            font-weight 600
+            color #fff
+            border-radius(.8em)
+            background-color theme-color
+            transition(.5s)
+            cursor pointer
+
+            &:hover
+              color theme-color
+              background-color dark-pale-color
+              box-shadow(0px 15px 30px 0px rgba(#6C6C6C, .16))
 
       .social-icons-wrapper
         flex-parent(row, wrap, flex-end)
         align-items center
+        margin-bottom 9em
 
         .social-icon
           flex-basis 3.5em
