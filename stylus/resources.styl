@@ -67,53 +67,37 @@ animation(val)
   animation val
 
 fadeIn(time)
-  @keyframes fadein {
+
+  effect()
     from {
       opacity 0.15
     }
     to {
       opacity 1
     }
+
+  @keyframes fadein {
+    effect()
   }
 
   /* Firefox < 16 */
   @-moz-keyframes fadein {
-    from {
-      opacity 0.15
-    }
-    to {
-      opacity 1
-    }
+    effect()
   }
 
   /* Safari, Chrome and Opera > 12.1 */
   @-webkit-keyframes fadein {
-    from {
-      opacity 0.15
-    }
-    to {
-      opacity 1
-    }
+    effect()
   }
 
   /* Internet Explorer */
   @-ms-keyframes fadein {
-    from {
-      opacity 0.15
-    }
-    to {
-      opacity 1
-    }
+    effect()
   }
 
   /* Opera < 12.1 */
   @-o-keyframes fadein {
-    from {
-      opacity 0.15
-    }
-    to {
-      opacity 1
-    }
+    effect()
   }
 
   animation(fadein time)
@@ -138,7 +122,8 @@ spin-animation(time)
   animation(spin time linear infinite)
 
 blur-fade-in(time)
-  @-moz-keyframes blurFade {
+
+  effect()
     0% {
       filter(blur(5px))
     }
@@ -148,28 +133,17 @@ blur-fade-in(time)
     100% {
       filter(blur(0px))
     }
-  }
-  @-webkit-keyframes blurFade {
-    0% {
-      filter(blur(5px))
-    }
-    50% {
-      filter(blur(3px))
-    }
-    100% {
-      filter(blur(0px))
-    }
-  }
+  
   @keyframes blurFade {
-    0% {
-      filter(blur(5px))
-    }
-    50% {
-      filter(blur(3px))
-    }
-    100% {
-      filter(blur(0px))
-    }
+    effect()
+  }
+
+  @-moz-keyframes blurFade {
+    effect()
+  }
+
+  @-webkit-keyframes blurFade {
+    effect()
   }
 
   animation(blurFade time)

@@ -29,6 +29,7 @@ body
   font-family font
   font-size 62.5%
   color text-color
+  fadeIn(2s)
 
 a
   color inherit
@@ -46,6 +47,8 @@ textarea
 
   &.initial-content
     padding-bottom 6em
+    overflow-y auto
+    overflow-x hidden
 
   // Initial content
 
@@ -57,6 +60,11 @@ textarea
     padding 5.25em 12% 0 12%
     flex-parent(row, nowrap, space-between)
     align-items flex-end
+
+    @media (max-width 1159px)
+      width 90%
+      padding-right 5%
+      padding-left 5%
 
     .site-title
       font-size 2.75em
@@ -86,6 +94,10 @@ textarea
 
     @media (max-width 1600px)
       margin-top 20em
+
+    @media (max-width 1159px)
+      width 32%
+      margin-left 5%
 
     .main-title
       font-size 5em
@@ -153,13 +165,17 @@ textarea
 
     @media (max-width 1600px)
       width 55%
+
+    @media (max-width 1159px)
+      width 57.5%
+      transform(translateX(15%))
   
   // Advantages
 
   &.aparted-content-wrapper
     width 80%
     margin 0 auto
-    padding 6vh 0 8vh 0
+    padding 5vh 0 8vh 0
     flex-parent(row, wrap, space-between)
     align-items center
 
@@ -248,6 +264,45 @@ textarea
       font-size 3.5em
       font-weight 700
       color theme-color
+
+    .container
+      margin-top 2em
+      flex-parent(row, wrap, space-between)
+      align-items flex-end
+
+      .social-icons-wrapper
+        flex-parent(row, wrap, flex-end)
+        align-items center
+
+        .social-icon
+          flex-basis 3.5em
+          height 3.5em
+          margin-left 2em
+          cursor pointer
+
+          &:first-child
+            margin-left 0
+
+          &#instagram
+            flex-basis 3.1em
+            height 3.1em
+          
+
+.credits
+  width 100%
+  padding-top .5em
+  padding-bottom .3em
+  font-size 1.4em
+  font-weight 500
+  text-align center
+  color theme-color
+  background-color dark-pale-color
+
+  a
+    font-weight 600
+
+  .hiper-highlighted-text
+    font-weight 800
 
 // Global media queries
 
