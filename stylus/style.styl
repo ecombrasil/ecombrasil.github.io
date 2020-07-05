@@ -183,8 +183,11 @@ textarea
         color theme-color
       
       .advantage-description
-        font-size 2em
+        width 80%
+        padding-left 20%
+        font-size 1.8em
         font-size 500
+        line-height 1.6em
 
     &.reversed
       flex-direction row-reverse
@@ -193,21 +196,24 @@ textarea
         margin-right 0
         margin-left 6em
         text-align left
+      
+      .advantage-description
+        padding 0
   
   &.tilted-box
-    width 80%
+    width 76%
     margin 2.5em 0 2.5em 0
-    padding 8em 10% 8em 10%
+    padding 8em 12% 8em 12%
     height 26em
     background-color pale-color
-    transform(rotate(2deg))
+    transform(skewY(2deg))
     flex-parent(row, wrap, space-between)
     align-items center
 
     .skill
       flex-basis 25em
       height auto
-      transform(rotate(-2deg))
+      transform(skewY(-2deg))
       flex-parent(row, wrap, center)
 
       &:first-child
@@ -227,11 +233,21 @@ textarea
         font-size 1.7em
         font-weight 500
         text-align center
+        line-height 1.5em
         
         .highlighted-text
           font-weight 600
           color theme-color
 
+  &#faleconosco
+    width 76%
+    padding 9em 12% 9em 12%
+    background-color pale-color
+
+    .footer-title
+      font-size 3.5em
+      font-weight 700
+      color theme-color
 
 // Global media queries
 
