@@ -44,17 +44,22 @@ textarea
   height auto
   overflow auto
 
+  &.initial-content
+    padding-bottom 6em
+
+  // Initial content
+
   #header
     position absolute
     z-index 2
     left 0
     width 76%
-    padding 5.5em 12% 0 12%
+    padding 5.25em 12% 0 12%
     flex-parent(row, nowrap, space-between)
     align-items flex-end
 
     .site-title
-      font-size 2.4em
+      font-size 2.75em
       font-weight 800
       color theme-color
 
@@ -148,6 +153,48 @@ textarea
 
     @media (max-width 1600px)
       width 55%
+  
+  // Advantages
+
+  &.aparted-content-wrapper
+    width 80%
+    margin 0 auto
+    padding 6vh 0 8vh 0
+    flex-parent(row, wrap, space-between)
+    align-items center
+
+    &.reversed
+      flex-direction row-reverse
+
+    .advantage-illustration
+      flex-basis 42%
+      height auto
+
+    .advantage-text
+      flex-basis 34%
+      height auto
+      text-align right
+      margin-right 6em
+
+      .advantage-title
+        margin-bottom 1.1em
+        font-size 3.8em
+        font-weight 800
+        color theme-color
+      
+      .advantage-description
+        font-size 2em
+        font-size 500
+
+    &.reversed
+      flex-direction row-reverse
+
+      .advantage-text
+        margin-right 0
+        margin-left 6em
+        text-align left
+
+// Global media queries
 
 @media (max-width 1800px)
   body
