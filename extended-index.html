@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecom | Aplicações multiplataforma</title>
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
+    <meta name="author" content="Luiz Filipe da Silva">
+    <meta name="description" content="Ecom é uma empresa brasileira que desenvolve aplicações multiplataforma (web, desktop e mobile), focada em ajudar outras empresas a conquistar seu espaço online">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- Preload styles and apply them -->
+    <link
+      rel="preload"
+      as="style"
+      onload="this.rel = 'stylesheet'"
+      href='./css/style.css'>
+    <!-- Solution when JavaScript is disabled -->
+    <noscript>
+      <link rel="stylesheet" href='./css/style.css'>
+    </noscript>
   </head>
   
   <body>
