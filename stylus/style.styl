@@ -62,7 +62,7 @@ input
     flex-parent(row, nowrap, space-between)
     align-items center
 
-    @media (max-width 1159px)
+    @media (max-width 1366px)
       width 90%
       padding-right 5%
       padding-left 5%
@@ -107,8 +107,9 @@ input
     @media (max-width 1600px)
       margin-top 20em
 
-    @media (max-width 1159px)
+    @media (max-width 1366px)
       width 32%
+      margin-top 22em
       margin-left 5%
 
     .main-title
@@ -178,8 +179,8 @@ input
     @media (max-width 1600px)
       width 55%
 
-    @media (max-width 1159px)
-      width 57.5%
+    @media (max-width 1366px)
+      width 58%
       transform(translateX(15%))
   
   // Advantages
@@ -190,6 +191,9 @@ input
     padding 4vh 0 7vh 0
     flex-parent(row, wrap, space-between)
     align-items center
+
+    @media (max-width 1366px)
+      width 90%
 
     &.reversed
       flex-direction row-reverse
@@ -203,6 +207,12 @@ input
       height auto
       text-align right
       margin-right 6em
+
+      @media (max-width 1366px)
+        margin-right 4em
+
+      @media (max-width 1159px)
+        margin-right 2em
 
       .advantage-title
         margin-bottom 1.1em
@@ -224,6 +234,12 @@ input
         margin-right 0
         margin-left 6em
         text-align left
+
+        @media (max-width 1366px)
+          margin-right 4em
+
+        @media (max-width 1159px)
+          margin-left 2em
       
       .advantage-description
         padding 0
@@ -237,6 +253,11 @@ input
     transform(skewY(2deg))
     flex-parent(row, wrap, space-between)
     align-items center
+
+    @media (max-width 1366px)
+      width 86%
+      padding-left 7%
+      padding-right 7%
 
     .skill
       flex-basis 25em
@@ -272,6 +293,11 @@ input
     padding 9em 12% 0 12%
     background-color pale-color
 
+    @media (max-width 1366px)
+      width 88%
+      padding-left 6%
+      padding-right 6%
+
     .footer-title
       font-size 3.5em
       font-weight 700
@@ -296,7 +322,6 @@ input
 
           input
           textarea
-            width 16em
             font-size 1.6em
             font-weight 500
             padding .6em 1em .35em 1em
@@ -304,7 +329,11 @@ input
             margin-top .9em
             placeholder(text-color)
 
+          input
+            width 16em
+
           textarea
+            width 22em
             height 4.2em
             resize none
           
