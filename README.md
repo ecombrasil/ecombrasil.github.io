@@ -1,9 +1,7 @@
 # Ecom
-Site comercial da Ecom (empresa desenvolvedora de aplicações web e mobile)
+Ecom comercial website (multiplatform developer company). [Ver página](https://ecombrasil.github.io "Ecom").
 
-[Ver página](https://ecombrasil.github.io "Ecom")
-
-# Devepment
+# Development
 
 In order to develop the project locally, you'll need to install `stylus`:
 
