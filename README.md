@@ -1,5 +1,5 @@
 # Ecom
-Ecom comercial website (multiplatform developer company). [Ver página](https://ecombrasil.github.io "Ecom").
+Ecom comercial website (multiplatform developer company). [See page](https://ecombrasil.github.io "Ecom").
 
 # Development
 
