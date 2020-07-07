@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="319" viewBox="0 0 360 319">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="297" viewBox="0 0 360 297">
   <defs>
     <clipPath id="clip-path">
       <rect width="533" height="342" fill="none"/>
@@ -7,15 +7,15 @@
       <rect id="Rectangle_100" data-name="Rectangle 100" width="241.629" height="241.629" transform="translate(50 285)" fill="#fff"/>
     </clipPath>
     <clipPath id="clip-Initial_background_mobile">
-      <rect width="360" height="319"/>
+      <rect width="360" height="297"/>
     </clipPath>
   </defs>
   <g id="Initial_background_mobile" data-name="Initial background mobile" clip-path="url(#clip-Initial_background_mobile)">
-    <g id="Component_1_2" data-name="Component 1 – 2" transform="translate(-8 -61)" clip-path="url(#clip-path)">
+    <g id="Component_1_2" data-name="Component 1 – 2" transform="translate(-8 -85)" clip-path="url(#clip-path)">
       <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="189" cy="135" rx="189" ry="135" fill="#ccd8e6"/>
       <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="186.5" cy="135" rx="186.5" ry="135" transform="translate(160 72)" fill="#ccd8e6"/>
     </g>
-    <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(9 -201)" clip-path="url(#clip-path-2)">
+    <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(9 -225)" clip-path="url(#clip-path-2)">
       <g id="online-shopping" transform="translate(50 292.225)">
         <g id="freepik--Floor--inject-40" transform="translate(0 87.672)">
           <ellipse id="freepik--floor--inject-40-2" data-name="freepik--floor--inject-40" cx="120.814" cy="69.753" rx="120.814" ry="69.753" fill="#f5f5f5"/>

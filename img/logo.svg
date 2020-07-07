@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45"><defs><clipPath id="a"><rect width="45" height="45" fill="none"/></clipPath></defs><g clip-path="url(#a)"><rect width="45" height="45" fill="none"/><text transform="translate(19.737 38.501) rotate(-30)" fill="#0c4773" font-size="31" font-family="Gilroy-ExtraBold" font-weight="800" opacity="0.488"><tspan x="0" y="0">E</tspan></text><text transform="translate(20.737 34.501) rotate(-30)" fill="#0c4773" font-size="31" font-family="Gilroy-ExtraBold" font-weight="800"><tspan x="0" y="0">E</tspan></text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="106" viewBox="0 0 81 106">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="105.583" height="137.397" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Android_Mobile_1">
+      <rect width="81" height="106"/>
+    </clipPath>
+  </defs>
+  <g id="Android_Mobile_1" data-name="Android Mobile – 1" clip-path="url(#clip-Android_Mobile_1)">
+    <g id="Component_4_1" data-name="Component 4 – 1" transform="translate(-9.263 -8.372)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_129" data-name="Rectangle 129" width="81" height="106" transform="translate(9.263 8.372)" fill="none"/>
+      <text id="E" transform="translate(41 116.613) rotate(-30)" fill="#0c4773" font-size="106" font-family="Gilroy-ExtraBold" font-weight="800" opacity="0.488"><tspan x="0" y="0">E</tspan></text>
+      <text id="E-2" data-name="E" transform="translate(44.22 99.514) rotate(-30)" fill="#0c4773" font-size="106" font-family="Gilroy-ExtraBold" font-weight="800"><tspan x="0" y="0">E</tspan></text>
+    </g>
+  </g>
+</svg>

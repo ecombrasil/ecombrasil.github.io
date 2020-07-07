@@ -24,7 +24,7 @@
     <div class="container initial-content">
       <header id="header">
         <div class="logo-wrapper">
-          <img src="./img/logo.png" alt="Ecom" class="logo-icon">
+          <img src="./img/logo.svg" alt="Ecom" class="logo-icon">
           <h1 class="site-title">Ecom</h1>
         </div>
         <ul class="main-menu">
@@ -35,7 +35,7 @@
 
       <div class="main-texts">
         <h1 class="main-title">Nos inspiramos<br>no seu negócio.</h1>
-        <p class="initial-paragraph">Adoramos desenvolver <i>apps</i>. E queremos ajudar você a ganhar dinheiro fazendo o que gosta também, garantindo sua presença digital e <i>online</i>.</p>
+        <p class="initial-paragraph">Adoramos desenvolver <i>apps</i>. E queremos ajudar você a ganhar dinheiro fazendo o que gosta também, garantindo sua presença <i>online</i>.</p>
         <div class="see-more-wrapper"><a href="#vantagens" class="see-more-btn">Ver mais</a></div>
       </div>
 
@@ -113,6 +113,26 @@
         </div>
       </div>
     </footer>
+
+    <script type="text/javascript">
+
+      // Select correct image to display in the first container
+
+      var initialBackground = document.querySelector('.rounded-background');
+      var images = [
+        './img/rounded-background.svg',
+        './img/rounded-background-mobile.svg'
+      ];
+
+      function chooseProperImage() {
+        initialBackground.src = document.body.clientWidth > 900 ?
+          images[0] : images[1];
+      }
+
+      window.addEventListener('load', chooseProperImage);
+      window.addEventListener('resize', chooseProperImage);
+      
+    </script>
     
     <!--<p class="credits"><span class="hiper-highlighted-text">Ecom© 2020</span> | Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" target="_blank" rel="noopener noreferrer">Pixel perfect</a> from <a href="https://www.flaticon.com/"" target="_blank" rel="noopener noreferrer">www.flaticon.com</a></p>-->
   </body>
