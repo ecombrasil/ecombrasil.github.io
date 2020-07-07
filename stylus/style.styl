@@ -4,6 +4,7 @@
 font = 'Gilroy'
 text-color = #2B2B2B
 theme-color = #0C4773
+dark-theme-color = #082E4A
 pale-color = #EFF4FA
 dark-pale-color = #CCD8E6
 
@@ -51,6 +52,9 @@ input
     overflow-y auto
     overflow-x hidden
 
+    @media (max-width 600px)
+      flex-parent(row, wrap, center)
+
   // Initial content
 
   #header
@@ -67,6 +71,9 @@ input
       padding-right 7%
       padding-left 7%
 
+    @media (max-width 600px)
+      padding-top 2.3em
+
     .logo-wrapper
       flex-parent(row, nowrap, flex-start)
       align-items center
@@ -77,10 +84,18 @@ input
         margin-right 2.7em
         object-position center
 
+        @media (max-width 600px)
+          flex-basis 4em
+          height 4em
+          margin-right 2.5em
+
       .site-title
         font-size 2.5em
         font-weight 800
         color theme-color
+
+        @media (max-width 600px)
+          font-size 2.5em
 
     .main-menu
       margin-top .4em
@@ -93,6 +108,16 @@ input
         font-weight 600
         margin-left 3.5em
         color theme-color
+
+        &:first-child
+          margin-left 0
+
+          @media (max-width 600px)
+            display none
+
+        @media (max-width 600px)
+          text-align center
+          margin-left 1em
 
   .main-texts
     width 25%
@@ -114,7 +139,14 @@ input
 
     @media (max-width 960px)
       margin-top 20em
-
+    
+    @media (max-width 600px)
+      flex-basis 80%
+      float none
+      margin 0 auto
+      margin-top 4em
+      order 2
+    
     .main-title
       font-size 5em
       font-weight 800
@@ -128,6 +160,11 @@ input
 
       @media (max-width 960px)
         font-size 4em
+
+      @media (max-width 600px)
+        font-size 3em
+        line-height 1.4em
+        text-align center
     
     .initial-paragraph
       width 90%
@@ -143,10 +180,18 @@ input
 
       @media (max-width 1600px)
         margin-top 1.8em
-        font-size 1.7
+        font-size 1.7em
 
       @media (max-width 960px)
         width 100%
+
+      @media (max-width 600px)
+        margin-top 1.5em
+        font-size 1.95em
+        font-weight 500
+        text-align center
+        color text-color
+        line-height 1.9em
 
     .see-more-wrapper
       width 100%
@@ -163,6 +208,10 @@ input
       @media (max-width 960px)
         margin-top 4.75em
 
+      @media (max-width 600px)
+        justify-content center
+        margin-top 3.8em
+
       .see-more-btn
         padding .85em 2.8em .65em 2.8em
         font-size 2em
@@ -176,7 +225,11 @@ input
           font-size 1.8em
 
         @media (max-width 1600px)
-          font-size 1.7
+          font-size 1.7em
+
+        @media (max-width 600px)
+          font-size 2em
+          background-color dark-theme-color
 
         &:hover
           box-shadow(0px 15px 30px 0px rgba(#6C6C6C, .16))
@@ -197,6 +250,12 @@ input
 
     @media (max-width 960px)
       width 61%
+
+    @media (max-width 600px)
+      flex-basis 100%
+      float none
+      transform(none)
+      order 1
   
   // Advantages
 
